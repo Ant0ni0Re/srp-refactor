@@ -3,7 +3,6 @@ interface User {
     name: string;
 }
 
-// Esta clase viola el Principio de Responsabilidad Unica (SRP)
 class UserBloc {
 
     constructor(
